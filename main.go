@@ -10,7 +10,8 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to Home page Newone!")
+	fmt.Fprintf(w, "Welcome to Home page!")
+	fmt.Fprintf(w, "-Himanshu Sharma!")
 }
 
 func main() {
