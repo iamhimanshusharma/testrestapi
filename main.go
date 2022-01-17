@@ -15,6 +15,7 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Testing again!")
 	fmt.Fprintf(w, "Testing again!")
 	fmt.Fprintf(w, "Testing again!")
+	fmt.Fprintf(w, "What is happening!")
 }
 
 func main() {
